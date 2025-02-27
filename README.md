@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/FarisahHannes2210/expenses-chart-component-frontend-mentor)
-- Live Site URL: [live site](https://FarisahHannes2210.github.io/expenses-chart-component-frontend-mentor)
+- Solution URL: [Solution](https://github.com/FarisahHannes2210/pricing-component-with-toggle-master-frontend-mentor)
+- Live Site URL: [live site](https://FarisahHannes2210.github.io/pricing-component-with-toggle-master-frontend-mentor)
 
 ## My process
 
