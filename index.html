@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Farisah Hannes</title>
+  </head>
+  <body>
+       <!-- top -->
+
+
+      <div id="top">
+        <h1>Our Pricing</h1>
+        <div id="toggle_switch">
+          <label for="toggle">Annually</label>
+          <label for="toggle" class="switch">
+            <input onclick="main()" id="toggle" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+          <label for="toggle">Monthly</label>
+        </div>
+      </div>
+
+
+      <!-- bottom -->
+      <!-- all the pricing starts here -->
+      <div id="container">
+        <!-- basic card -->
+        <div id="basic_card" class="card">
+          <p class="title">Basic</p>
+          <p id="basic_monthly" style=" display: none;" class="price monthly-price">&dollar;19.99</p>
+          <p id="basic_anually" style=" display: block;" class="price annual-price">&dollar;199.99</p>
+          <hr />
+          <p>500 GB Storage</p>
+          <hr />
+          <p>2 Users Allowed</p>
+          <hr />
+          <p>Send up to 3 GB</p>
+          <hr />
+          <button class="norm_button">LEARN MORE</button>
+        </div>
+
+        <!-- pro card --------------------------------------->
+        <div id="professional_card" class="card gradient_colour">
+          <p id="pro_title">Professional</p>
+          <p id="pro_monthly" style=" display: none;"  class="price monthly-price">&dollar;24.99</p>
+          <p id="pro_anually" style=" display: block;" class="price annual-price">&dollar;249.99</p>
+          <hr />
+          <p>1 TB Storage</p>
+          <hr />
+          <p>2 Users Allowed</p>
+          <hr />
+          <p>Send up to 3 GB</p>
+          <hr />
+          <button class="pro_button">LEARN MORE</button>
+        </div>
+
+        <!-- master card -->
+        <div id="master_card" class="card">
+          <p class="title">Master</p>
+          <p id="master_monthly" style=" display: none;"  class="price monthly-price">&dollar;39.99</p>
+          <p id="master_anually" style=" display: block;"  class="price annual-price">&dollar;399.99</p>
+          <hr />
+          <p>2 TB Storage</p>
+          <hr />
+          <p>10 Users Allowed</p>
+          <hr />
+          <p>Send up to 20 GB</p>
+          <hr />
+          <button class="norm_button">LEARN MORE</button>
+        </div>
+      </div>
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>
