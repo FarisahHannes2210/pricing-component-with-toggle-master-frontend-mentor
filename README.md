@@ -138,7 +138,7 @@ body {
 ```
 
 ```js
-
+    //toggle here
     if(toggle.checked == true){ //check toggle = monthly
        
         basic_monthly.style.display = "block";
